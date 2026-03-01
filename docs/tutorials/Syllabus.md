@@ -33,3 +33,11 @@ This lesson tackles the "method-first" trap — asking AI how to execute a metho
 **Build The Expert First: The Right Way to Tackle Complex Projects with AI**
 
 Building on goal-first thinking, this lesson introduces "project thinking" for complex challenges. You'll master a three-step method: brainstorm with AI to clarify your needs, create a requirements document capturing your background and goals, then generate a custom expert prompt. The hands-on exercise has you build a Claude Project with both files for a real challenge you're facing. After this lesson, you can create personalized AI advisors that remember your context and provide tailored guidance.
+
+---
+
+## 05-Master-Any-College-Course
+
+**Master Any College Course with Claude Project: Your Personal AI Tutor Playbook**
+
+Applying the expert-building skills from Lesson 04, this lesson shows you how to create a comprehensive AI tutor for any college course. You'll learn a three-phase method: split and upload textbooks, build complete course context with materials index and Instructions, then establish dynamic learning with progress.md for cross-conversation memory. The hands-on exercise has you set up a full learning environment for one of your current courses. After this lesson, you can create personalized AI tutors that remember your progress and provide tailored explanations.

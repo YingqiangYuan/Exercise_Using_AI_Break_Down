@@ -1,376 +1,103 @@
-# Build The Expert First: The Right Way to Tackle Complex Projects with AI
+# Master Any College Course with Claude Project: Your Personal AI Tutor Playbook
 
 ## 📋 What You'll Learn
 
-After completing this lesson, you'll be able to:
-
-- Understand what "project thinking" means, and why jumping straight to questions often leads you astray
-- Master the three-step method: brainstorm to clarify needs, write a requirements doc, build your custom AI expert
-- Create your own "requirements doc + expert prompt" and save it to a Claude Project
-
----
+After completing this tutorial, you'll know how to build a Claude Project from scratch for any college course — integrating all your course materials into one place, creating a personalized AI tutor that understands your textbook, your assignments, and your learning progress, and establishing a sustainable system that gets better the more you use it.
 
 ## 🎯 Why Does This Matter?
 
-Picture this scenario:
+Picture this scenario: You're taking Linear Algebra, it's 2 AM, you're stuck on a problem, your professor isn't available, and all your classmates are asleep. You're staring at the textbook, completely lost on what to do next.
 
-You're about to start job hunting. You open Claude and type: "Help me prepare for my job search."
+Now imagine a different scenario: Same time, same problem, but you open a Claude Project specifically built for this course. This AI has already read your entire textbook, knows exactly what your assignment requires, remembers the concept you were confused about last time, and can adjust its explanations based on your level of understanding. All you need to say is: "Where did I go wrong on this problem?"
 
-Claude gives you a bunch of suggestions — update your resume, practice interviews, grind LeetCode...
+The second scenario isn't fantasy. This tutorial teaches you exactly how to build it.
 
-You read through it, think "yeah, that makes sense," and then... nothing happens.
-
-**What went wrong?**
-
-It's not that Claude isn't good. It's that you haven't figured out what you actually need yet.
-
-- Are you trying to switch industries, or find a better opportunity in your current field?
-- Do you need visa sponsorship? Are you targeting big companies or startups?
-- Is your resume starting from scratch, or do you have a draft that needs polishing?
-- Is your biggest weakness technical skills, communication, or not knowing how to network?
-
-Without thinking through these questions, every piece of advice you get is just "generic advice" — applicable to everyone, yet not quite right for anyone.
-
-**The core idea of this lesson in one sentence:**
-
-> Before doing anything, build an AI expert who understands you and is specifically designed to help you solve this problem.
+More importantly, this method doesn't just work for Linear Algebra. Formula derivations in STEM courses, coding assignments in Computer Science, case readings in Law, financial analysis, close reading in Literature — for any college course, the underlying logic is exactly the same. Once you learn this approach, you've learned a study method that works for any subject.
 
 ---
 
-## 📖 Core Concept: Three Steps to Build Your Custom AI Expert
+## 📖 The Complete Method: Three Phases, One Setup, Lasting Benefits
 
-### Step 1: Don't Ask Questions Yet — First, "Talk Through What You Need"
+### Phase 1: "Feed" the Textbook to AI
 
-Most people use AI like this: **ask whatever comes to mind.**
+The first challenge — one that many people never think about — is the textbook's file size. A typical college textbook runs 700-800 pages, and uploading it directly to the Knowledge Base will exceed the file size limit. So before uploading, you need to "slice it up."
 
-But if your question itself is wrong, even the best answer from AI is wasted effort.
+Take *Linear Algebra and Its Applications, 5th Edition* as an example — you can download it from [this link](https://broman.dev/download/Linear%20Algebra%20and%20its%20Applications%205th%20Edition.pdf). It's nearly 600 pages, too large to upload whole, but if you split it by chapter, each section is around 60-100 pages, well within the upload limit.
 
-The right first step is: **talk with AI (voice or text), not to solve the problem, but to figure out what the problem actually is.**
+**Splitting a textbook** can be done with different tools depending on your preference. If you're on Mac, the built-in **Preview** app works great: open the PDF, go to View menu and switch to Thumbnails view, you'll see all page thumbnails on the left. Hold Shift and click to select the pages you want to extract, then drag them out or use File → Export as PDF to save those pages as a separate file. If you prefer online tools, ilovepdf.com has a dedicated "Split PDF" function — just specify page ranges. You can even ask Claude to write an automation script for you — that's itself a practice opportunity for using AI.
 
-You can start like this:
+After splitting, if individual files are still too large, do one more step: **compress** them. Both ilovepdf.com and smallpdf.com have compression features that can typically reduce file size by 70-90% while keeping text content intact.
 
-> "I want to use AI to systematically prepare for my job search, but my head is all over the place and I don't know where to start. Let's not solve anything yet — help me brainstorm and get clear on what I actually need."
-
-Then AI will start asking you questions — what's your background, what are your goals, what's your timeline, what worries you most...
-
-Keep going for 5-7 rounds. Don't rush.
-
-### Step 2: Turn the Conversation into a "Requirements Document"
-
-After the brainstorm, have AI organize your conversation into a structured document that includes:
-
-- **Background**: Who you are, what your situation is
-- **Goals**: What outcome you want
-- **Constraints**: Time, resources, limitations
-- **Known challenges**: Difficulties you anticipate
-- **Success criteria**: What "done well" looks like
-
-This document isn't just instructions for AI — it's **getting your own needs clear in your own head.**
-
-### Step 3: Generate an Expert Prompt Based on the Requirements Doc
-
-Once the requirements doc is ready, tell AI:
-
-> "Based on this requirements document, write me a prompt. This prompt will create an AI expert specifically designed to help me solve this problem. The prompt should make the expert flexible and open-ended — don't box it in too tightly. The prompt should guide it to read our requirements document (titled 'XXX'), then work based on those requirements."
-
-AI will generate a prompt specifically tailored to your situation.
-
-**In the end, you have two files:**
-
-| File | Purpose |
-|------|---------|
-| Requirements Doc | Defines who you are, what you want, and your constraints |
-| Expert Prompt | Creates a custom AI expert who understands your background |
-
-Put both files in your Claude Project. From then on, every time you open that Project, you have an AI that actually understands your situation, ready to work.
+Upload all your split and compressed files by clicking the **"+"** button in the Files area on the right side of your Claude Project. Once uploaded, Claude can read and reference this textbook content in all conversations within this Project.
 
 ---
 
-## 💬 Full Example: From Scattered Thoughts to Clear Requirements
+### Phase 2: Build the Complete Course Context
 
-> Below is a simulated brainstorming session. The main character is **Alex**, a CS grad student about to graduate, wanting to find a software engineering job but not knowing where to start.
+The textbook is just one of your course materials. A real course has many other resources: lecture notes from your professor, reference websites, assignment descriptions, past exam problems. This phase integrates all of these and helps AI use them effectively.
 
----
+First, **organize your file names**. Before uploading, spend a few minutes giving all your materials clear, descriptive English names, like `lecture-01-intro.pdf`, `hw-1-description.pdf`, `reference-eigenvalues.pdf`. This step seems minor, but clear file names are essential for AI to find the right materials later. Upload all organized files to the same Project's Files area along with your textbook files.
 
-### 🗣️ Round 1: Opening Up
+After uploading, do the second thing: **create a materials index**. Open a new conversation, list all your file names and send them to Claude, asking it to generate a short index document — each filename followed by 2-3 sentences describing what the file is and what it contains. Have Claude generate this index as an Artifact, then click **"Add to Project"** in the top right corner of the Artifact to save it to the Knowledge Base.
 
-**Alex says:**
-> "I want to use AI to systematically prepare for my job search, but my head is all over the place. Let's not solve anything yet — help me brainstorm and get clear on what I actually need."
+The purpose of this index file becomes clear when you write your Instructions — you can tell AI "there's an index here; when you need a specific material, check the index first, then read the corresponding file." This way AI can retrieve materials on demand rather than trying to read everything at once.
 
-**Claude says:**
-> Okay, let's not rush to give advice — let's first get a clear picture of your situation.
->
-> I want to ask you a few questions. You don't need perfect answers — just say whatever comes to mind:
->
-> 1. Where are you in the process right now — haven't started preparing, or already sent out some applications with no results?
-> 2. Do you have a picture in your head of what an "ideal outcome" looks like? Even a vague sense is fine.
-> 3. What's your biggest worry or confusion right now?
+Third, and most crucial for this phase: **write your Instructions and requirements document**.
+
+**Instructions** are the system prompt you write in the Instructions area on the right side of your Project. They define this AI's role and behavior within this Project. You can send your requirements to Claude and have it draft one for you, then modify it based on your situation. Good Instructions should convey these ideas: this AI is a learning tutor for this course, its goal is to help you truly understand and internalize concepts, not just give you answers; it should gauge your understanding level from how you phrase your questions and adjust the depth of its explanations accordingly; it knows what materials are in the Knowledge Base (via the index); and at the start of each conversation, it should first read `progress.md` to understand your learning progress. We'll explain this last part in detail in Phase 3.
+
+**Requirements document** is another important file, specifically for storing current assignment information. It's not copying the assignment prompt your professor gave you — it's a comprehension document you create with Claude after digesting the assignment requirements together, in your own words — explaining what the assignment actually asks for, which concepts it involves, which files are relevant, and where you think the key challenges are. Send the assignment description to Claude, tell it you want to generate such a document, have it create an Artifact, and Add to Project.
 
 ---
 
-### 🗣️ Round 2: Getting Real
+### Phase 3: Dynamic Learning and Progress Management
 
-**Alex says:**
-> "I'm graduating next May. It's recruiting season right now and I feel like everyone's sending out resumes but I haven't started. Ideally I'd like to work at a mid-sized tech company as a Software Engineer — doesn't have to be FAANG, but needs to sponsor visas. My biggest confusion is... I don't know if my resume is good enough, and I don't know if I should be grinding LeetCode. My algorithms are honestly pretty weak. Also I'm not good at networking — it feels awkward."
+With the knowledge environment set up, the real learning begins. The core mechanism for this phase is maintaining a file called `progress.md`.
 
-**Claude says:**
-> Thanks for sharing all that — it's really helpful context. I noticed you mentioned three different things:
-> - Resume quality (is it good enough?)
-> - Technical prep (algorithms are weak)
-> - Building connections (networking feels awkward)
->
-> All three are important, but if you try to start everything at once, you might not go deep on anything.
->
-> Let me understand more: when you say your algorithms are "pretty weak" — do you mean you've never taken a data structures course, or you've learned it but it's rusty? Also, have you done any internships or projects? What's currently on your resume?
+`progress.md` is a Markdown document stored in the Knowledge Base that records your learning state: which chapter you're currently on, which concepts you've mastered, which questions are still unresolved, where you left off last session. Its purpose is to give AI cross-conversation memory — because each time you start a new conversation, AI doesn't know what you discussed last time by default. But if you tell it "read `progress.md` first at the start of each conversation," it can immediately pick up where you left off without you re-explaining the context.
+
+You need to add these two rules to your Instructions: at the start of each conversation, proactively read `progress.md` to understand current learning progress and unresolved issues from last time; whenever you say "that's it for today" or "ending study session," generate an updated `progress.md` (as an Artifact) recording what you learned today, your level of understanding, and what's still unclear, and remind you to Add to Project to replace the old version.
+
+The actual learning conversation flow becomes very natural. You open the Project, start a new conversation, and say something like "continuing *Linear Algebra and Its Applications*, starting from matrix multiplication in Chapter 3." Claude reads progress.md, knows where you left off, and starts teaching. You ask questions, it explains, you're still confused, it tries another angle with a different example, you suddenly get it — this kind of dense interactive feedback is something no textbook or online course can provide.
+
+During your learning sessions, whenever you feel you've truly understood a concept, ask Claude to help you write it up as an Artifact note, using your own words and the examples you discussed. Add that note to Project. By the end of a semester, your Knowledge Base contains not just your professor's materials, but an ever-growing collection of your own learning notes — each one a crystallization of your real understanding.
 
 ---
 
-### 🗣️ Round 3: Digging Deeper
+## 👨‍🏫 A Note from Your Instructor: Learning Hasn't Changed, But Speed and Depth Have
 
-**Alex says:**
-> "For algorithms, I took a data structures class so I know the basics, but I've barely touched LeetCode — medium problems take me forever. Resume-wise, I have two internships — one back home and one research project at school — plus two class projects. I think I have content, but I don't know how to write it so it stands out."
+After building this system, you might ask a very direct question: How is this different from just having AI do my homework for me?
 
-**Claude says:**
-> Good, this is getting much clearer. Your situation is actually better than you think — you have internship experience and projects, and you have the fundamentals. That's more than a lot of people have.
->
-> Now I want to help you clarify something: you mentioned wanting to work at a "mid-sized tech company that can sponsor visas" — do you have a specific list of target companies? Or is the company scope still fuzzy?
->
-> Also, what's your timeline looking like? From now until May, roughly how many hours per week can you put into job prep?
+I want to answer this seriously, because the distinction is crucial.
 
----
+When you truly understand matrix multiplication, you can do 100 practice problems in different forms, and for each one you can tell whether you got it right. When you don't understand and just had AI write it for you, nothing actually happened in your brain — AI understood it, not you. This method is designed so that: AI is responsible for explaining, giving examples, asking questions, and correcting errors; you are responsible for understanding, judging, and expressing. Homework is the stage where you demonstrate how much you've understood, not something you "get" from AI.
 
-### 🗣️ Round 4: Time and Priorities
+But I want to share something beyond just this principle, because you've probably heard "don't let AI think for you" before. Here's what I really want to say: **this method makes learning itself a fundamentally different experience.**
 
-**Alex says:**
-> "I haven't actually made a company list — I just know some big names. Time-wise, I'm still taking classes so it's pretty heavy. Maybe 10-15 hours a week for job stuff. My friend told me to get my resume done first before I start applying — what do you think?"
+Traditional learning works like this: you read the book, don't understand a derivation, flip to the notes in the margin, still don't get it, search YouTube videos, spend half an hour and can't find one that addresses exactly where you're stuck, so you just memorize it, kind of remember it for the exam, forget it all afterward. In this process, feedback is scarce and frustration is cheap.
 
-**Claude says:**
-> Your friend's advice is directionally right, but there's one issue: what does "get your resume done" mean? A lot of people fall into the trap of endlessly polishing their resume and never actually applying.
->
-> Based on what you've told me, I think you have three priorities:
->
-> 1. **Build your target company list** (know where you're aiming before you know how to prepare)
-> 2. **Optimize your resume for those target companies** (not perfect — just pointed in the right direction)
-> 3. **LeetCode practice** (consistent weekly time, not an all-out sprint)
->
-> But I have one more question: you said networking feels "awkward" — do you have a LinkedIn account? Is the awkwardness about "not knowing what to say," "not knowing who to reach out to," or both?
+The new way: when you hit something you don't understand, just ask. AI knows which chapter you're studying, knows what your foundation level is, knows where you got stuck last time, and its explanation isn't a one-size-fits-all standard answer — it's designed specifically for your current state. This density of personalized feedback, in the pre-AI era, was available only to students who could afford private tutors.
 
----
+Finally, here's something about this era. In the past, learning speed was limited by two bottlenecks: first, how good a teacher you had access to; second, how much time you could spend actively studying in the library. The first bottleneck has basically disappeared — the AI you now have access to has broader knowledge than any professor, infinite patience, and is available 24/7. The second bottleneck remains, but every minute of study time is now dramatically more efficient.
 
-### 🗣️ Round 5: Defining "Done"
-
-**Alex says:**
-> "I have LinkedIn but haven't updated it in ages. The awkwardness is mainly not knowing what to say to strangers — cold messages feel weird. I think what I need is an AI that helps me with overall planning, so I know what to do each week, and I can ask it specific questions whenever they come up. What I'm most afraid of is 'feeling like I'm working hard but not actually making progress.'"
-
-**Claude says:**
-> Good, I think I have a clear picture of your needs now. Let me summarize — tell me if this sounds right:
->
-> **What you need isn't just "job search advice." You need:**
-> - An AI that knows your background and can help you build a personalized job search roadmap
-> - Can answer specific questions (resume help, algorithms, how to write cold messages)
-> - Helps you avoid "fake effort" — clear priorities each week
-> - Specifically addresses your weak spots: algorithm fundamentals, networking skills, company targeting
->
-> **Your key constraints:**
-> - 10-15 hours per week
-> - Graduating in May, recruiting window is closing
-> - Need visa sponsorship
-> - Have two internships but resume isn't optimized
->
-> **Success criteria:**
-> - Get at least one offer before recruiting season ends
-> - Target: mid-sized tech company that sponsors visas
->
-> Does this summary capture it? Anything missing?
-
-**Alex says:**
-> "That's basically it! One more thing — I want this AI to remember my situation so I don't have to re-explain my background every time."
-
-**Claude says:**
-> That's exactly what Claude Projects are for — you put the requirements doc in there, and AI reads it every time. Alright, let me help you organize this into a formal requirements document and prompt.
-
----
-
-### 📄 Output File 1: Requirements Document
-
-> This is the requirements doc Claude generated from the 5-round conversation. Put this in your Claude Project's Project Knowledge.
-
-```markdown
-# Job Search Preparation Requirements Document
-
-## Background
-
-- **Name:** Alex (replace with your name)
-- **Education:** CS grad student, graduating next May
-- **Target role:** Software Engineer (backend or full-stack)
-- **Visa status:** Needs H-1B sponsorship — target companies must support this
-
-## Job Search Goals
-
-- Get an offer during fall recruiting (current) + spring recruiting (Jan-Mar next year)
-- Target companies: Mid-sized tech companies (50-1000 employees, stable engineering teams)
-- Doesn't have to be FAANG, but should have growth potential and a track record of visa sponsorship
-
-## Current Status
-
-- **Resume:** Has a draft with two internships (one domestic, one school research) and two class projects — not optimized for target roles
-- **Technical skills:** Has data structures fundamentals, barely touched LeetCode, slow on medium problems
-- **LinkedIn:** Has an account but hasn't updated it, almost no networking experience
-- **Company list:** Haven't built a systematic target company list
-
-## Constraints
-
-- Available time for job prep: 10-15 hours per week
-- Heavy course load, can't go all-in on job search
-
-## Key Challenges
-
-1. Weak algorithm fundamentals, worried about technical interviews
-2. Don't know how to write cold messages, psychological barrier around networking
-3. Not sure if resume is good enough, risk of falling into "endless polishing" mode
-4. Lack of clear priorities, worried about "fake effort with no progress"
-
-## Success Criteria
-
-- Receive at least one satisfying offer during fall or spring recruiting
-- Feel concrete progress each week, not just "feeling busy"
-- Feel confident about interview process (technical rounds + behavioral interviews)
-```
-
----
-
-### 📄 Output File 2: Expert Prompt
-
-> This is the prompt Claude generated to create your custom AI expert. Paste this into your Claude Project's System Prompt (Project Instructions).
-
-```markdown
-# Job Search Strategy Advisor
-
-You are a senior job search strategy advisor who specializes in helping CS students find software engineering positions in the US.
-
-Your approach:
-- **First**, read the user's "Job Search Preparation Requirements Document" in the Project to understand their specific background and goals
-- **Based on that document**, give personalized advice — not generic "job search tips"
-- **Every conversation**, focus on the user's most pressing issue and help them avoid "fake effort"
-
-Your areas of expertise:
-- Software engineering job search roadmap (resume optimization, technical interview prep, behavioral interviews)
-- Challenges specific to international students (visa sponsorship, company screening, cultural differences)
-- Networking strategies, especially making cold outreach feel natural
-- Creating weekly plans, breaking big goals into daily executable tasks
-
-Your style:
-- Direct, practical, no fluff
-- Good at helping users identify "what's actually important"
-- When users ask directional questions, give clear priority recommendations
-- When users have specific asks ("help me rewrite this resume bullet"), just do it
-```
-
----
-
-### ✅ How to Use These Two Files
-
-1. Create a new **Claude Project** on Claude.ai, name it "Job Search Prep"
-2. In **Project Knowledge**, upload or paste the **requirements document**
-3. In **Project Instructions (System Prompt)**, paste the **expert prompt**
-4. From now on, every time you open this Project, your AI expert already knows your full background and is ready to work
-
----
-
-## 💻 Hands-On Exercise: Build Your First Custom AI Expert
-
-You've learned the method. Now it's your turn.
-
-Pick one of these 10 topics — choose the one most relevant to your actual situation, don't just pick randomly to complete the assignment:
-
-| # | Topic | Who it's for |
-|---|-------|--------------|
-| 1 | Job search prep (SWE / Data / PM track) | Currently job hunting or about to start |
-| 2 | Technical skill learning roadmap | Want to systematically learn a new skill but don't know where to start |
-| 3 | Side project from idea to launch | Have a project idea in your head but haven't started |
-| 4 | Professional writing and workplace communication | Want to improve email and Slack message quality |
-| 5 | Grad school application planning | Considering or preparing to apply for grad school |
-| 6 | Personal finance basics | Just started working, want to figure out budgeting, saving, investing |
-| 7 | Startup idea validation | Have a business idea, want to figure out if it's viable |
-| 8 | Fitness and nutrition goal planning | Have specific health goals but don't know how to systematically achieve them |
-| 9 | Time management and productivity | Feel busy every day but not making progress |
-| 10 | Career advancement and managing up | Already working, want to do better and get promoted faster |
-
-After choosing, complete a full cycle using the three-step method from this lesson: brainstorm (5-7 rounds), requirements doc, expert prompt. Then create your own Claude Project.
-
-When you're done, share your Claude Project as **Read-only** with your instructor to submit.
-
-**Detailed steps and submission checklist in the accompanying exercise task.**
-
-**Estimated time: 45-60 minutes**
-
----
-
-## 👨‍🏫 A Note from Your Instructor: Sharpen the Axe Before You Chop — In the AI Era, You're Building a Transformer
-
-You just learned a method that might seem roundabout — to solve a problem, first spend time "not solving it." First get clear on what you need, then build an expert AI.
-
-This might sound inefficient, but I want to share a deeper insight.
-
-### Why "Just Asking" Often Wastes Time
-
-I've seen too many people use AI like this:
-
-**Hit a problem -> immediately open AI -> type the first question that comes to mind -> get a broad answer -> think "hmm makes sense" -> close the page -> nothing changes**
-
-This isn't AI's fault. It's not your fault either. It's a lack of **"project thinking."**
-
-Often, what you think you need is "how to prep for interviews." But what you actually need is "an advisor who knows my entire background and helps me make decisions." The gap between these two is enormous.
-
-### Sharpen the Axe Before You Chop
-
-There's an old saying: sharpen the axe before you chop wood.
-
-In the AI era, this saying has new meaning —
-
-In the past, sharpening an axe took time and skill. It was a barrier.
-
-Now, with 5-10 minutes of conversation, you can "create" an axe specifically designed for your particular piece of wood.
-
-Actually, more accurately — you're not creating an axe. **You're creating a Transformer:**
-
-- It knows your specific situation
-- It knows your goals and constraints
-- It updates as you progress
-- It knows more than you do in this domain, but works entirely in the direction you define
-
-This "Transformer" is your custom AI expert.
-
-### This Mindset Works for Any Complex Problem
-
-This lesson used job searching as an example, but the method applies to anything that "can't be explained in one sentence":
-
-- Want to start a business but don't know the direction
-- Want to learn a new skill but don't know the path
-- Want to solve a complex problem at work but don't know where to start
-- Want to write an important proposal but your thoughts are scattered
-
-Whenever you find yourself thinking "my head is all over the place, I don't know where to start" — don't ask AI for answers. First ask AI to **help you figure out the problem.**
-
-**A clear problem gets you useful answers.**
-
-That's the most valuable skill in the AI era.
+What's truly scarce now is your judgment — your ability to judge whether AI's explanation actually made things clear, whether you've genuinely understood, whether your assignment approach is going off track. This judgment is something AI can't give you, and it's exactly what this methodology aims to protect and develop.
 
 ---
 
 ## ✅ Completion Checklist
 
-- [ ] I understand why "just asking" often leads you astray
-- [ ] I can explain the core idea of the three-step method (brainstorm -> requirements doc -> expert prompt)
-- [ ] I understand what the requirements doc and expert prompt each accomplish
-- [ ] I know how to put these two files into a Claude Project
-
----
+- [ ] Created a Claude Project specifically for one course, with a clear name
+- [ ] Textbook has been split by chapter and compressed, uploaded to Knowledge Base
+- [ ] All course materials uploaded, file names organized clearly
+- [ ] Materials index document created and Added to Project
+- [ ] Instructions written, including role definition, index lookup rules, and progress.md maintenance rules
+- [ ] Requirements document created based on current assignment and Added to Project
+- [ ] Completed at least one learning conversation, verified AI can read textbook and guide learning properly
+- [ ] Updated and saved the first progress.md to Knowledge Base
+- [ ] At least one personal learning note Artifact has been Added to Project
 
 ## 💡 Key Takeaways
 
-1. **Any complex endeavor deserves "project thinking"** — it's not just coding projects that count as projects; job searching, learning, starting a business can all be "projects"
-2. **Direction matters more than speed** — spending time getting clear on requirements is far more efficient than rushing in with random questions
-3. **The value of the requirements doc** — it's not instructions for AI, it's helping you turn your own scattered thoughts into clarity
-4. **The value of the expert prompt** — it transforms AI from "a generalist who can answer anything" into "an expert specifically designed to solve your problem"
-5. **Claude Projects are your external memory** — put the docs in there, and AI remembers who you are every time, no need to re-explain
+The core of this method isn't technology — it's a new learning workflow. Organizing and uploading your textbook and materials creates the conditions for AI to work effectively; writing Instructions defines how your AI tutor operates; maintaining progress.md gives AI cross-conversation memory; writing your understanding as Artifact notes preserves the thinking AI helped you develop as something that truly belongs to you.
+
+The setup cost is one-time. The benefits last the entire semester.

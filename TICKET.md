@@ -1,106 +1,108 @@
-# Hands-On Exercise: Build Your First Custom AI Expert
+# Hands-On Exercise: Build Your Personal AI Tutor for a College Course
 
 ## Objective
 
-This exercise helps you apply the three-step method to create a personalized AI expert for a real challenge you're facing. You'll brainstorm to clarify your needs, create a requirements document, and generate an expert prompt — then put it all together in a Claude Project.
+This exercise guides you through building a complete Claude Project for one of your current college courses. You'll integrate your textbook and course materials, set up Instructions for personalized tutoring, and establish a progress tracking system that makes AI remember your learning journey.
 
-**Prerequisite:** Complete the tutorial *[Build The Expert First: The Right Way to Tackle Complex Projects with AI](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/04-Build-The-Expert-First/)* before starting.
+**Prerequisite:** Complete the tutorial *[Master Any College Course with Claude Project](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/04-Build-The-Expert-First/)* before starting.
 
 ---
 
 ## How-to Guide
 
-### Step 1: Choose Your Topic
+### Step 1: Choose Your Course and Gather Materials
 
-Pick one topic from the list below — choose the one most relevant to your actual situation:
+Pick one course you're currently taking. Gather:
+- Your textbook (PDF format)
+- Lecture notes or slides
+- Assignment descriptions
+- Any reference materials or past exams
 
-| # | Topic | Who it's for |
-|---|-------|--------------|
-| 1 | Job search prep (SWE / Data / PM track) | Currently job hunting or about to start |
-| 2 | Technical skill learning roadmap | Want to systematically learn a new skill but don't know where to start |
-| 3 | Side project from idea to launch | Have a project idea in your head but haven't started |
-| 4 | Professional writing and workplace communication | Want to improve email and Slack message quality |
-| 5 | Grad school application planning | Considering or preparing to apply for grad school |
-| 6 | Personal finance basics | Just started working, want to figure out budgeting, saving, investing |
-| 7 | Startup idea validation | Have a business idea, want to figure out if it's viable |
-| 8 | Fitness and nutrition goal planning | Have specific health goals but don't know how to systematically achieve them |
-| 9 | Time management and productivity | Feel busy every day but not making progress |
-| 10 | Career advancement and managing up | Already working, want to do better and get promoted faster |
+### Step 2: Prepare Your Textbook
 
-### Step 2: Brainstorm with Claude (5-7 Rounds)
+1. **Split the textbook by chapter** using one of these methods:
+   - Mac Preview: View → Thumbnails, select pages, File → Export as PDF
+   - Online: ilovepdf.com "Split PDF" function
+   - Or ask Claude to write a script for you
 
-Open a new conversation in Claude and start with something like:
+2. **Compress if needed**: Use ilovepdf.com or smallpdf.com to reduce file size
 
-> "I want to use AI to help me with [your topic], but my thoughts are scattered and I'm not sure where to start. Let's not solve anything yet — help me brainstorm and get clear on what I actually need."
+3. **Organize file names**: Use clear, descriptive names like `textbook-ch01-vectors.pdf`
 
-Let Claude ask you questions. Answer honestly. Keep going for **5-7 rounds** until you both have a clear picture of:
-- Your background and current situation
-- Your goals and what success looks like
-- Your constraints (time, resources, limitations)
-- Your main challenges and worries
-
-### Step 3: Generate Your Requirements Document
-
-After brainstorming, ask Claude:
-
-> "Based on our conversation, help me create a structured requirements document that captures my background, goals, constraints, challenges, and success criteria."
-
-Review the document and make sure it accurately reflects your situation.
-
-### Step 4: Generate Your Expert Prompt
-
-Once you're happy with the requirements document, ask Claude:
-
-> "Based on this requirements document, write me a prompt that will create an AI expert specifically designed to help me with this. The prompt should be flexible and open-ended, and should guide the expert to read my requirements document first."
-
-### Step 5: Create Your Claude Project
+### Step 3: Create Your Claude Project
 
 1. Go to [Claude.ai](https://claude.ai) and create a new **Project**
-2. Give it a descriptive name (e.g., "Job Search Prep" or "Side Project Launch")
-3. In **Project Knowledge**, paste your **requirements document**
-4. In **Project Instructions (System Prompt)**, paste your **expert prompt**
-5. Start a new conversation in the project to test that it works
+2. Give it a clear name (e.g., "Linear Algebra - Fall 2024")
+3. Upload all your prepared files using the **"+"** button in the Files area
 
-### Step 6: Share Your Project
+### Step 4: Create a Materials Index
 
-1. In your Claude Project, click **Share** (top right)
-2. Select **Shared** → **Create share link**
-3. Set permissions to **Read-only**
-4. Copy the link and submit to your instructor
+1. Start a new conversation in your Project
+2. List all your uploaded file names and ask Claude:
+   > "Create an index document for these files. For each file, write 2-3 sentences describing what it contains and when it would be useful."
+3. Click **"Add to Project"** on the generated Artifact
 
-**Estimated time: 45-60 minutes**
+### Step 5: Write Your Instructions
+
+Ask Claude to help you draft Instructions, then customize:
+
+> "Help me write Instructions for this Project. This AI should be a learning tutor for [course name]. It should:
+> - Help me understand concepts, not just give answers
+> - Adjust explanations based on my understanding level
+> - Check the materials index when I ask about specific topics
+> - Read progress.md at the start of each conversation
+> - Generate updated progress.md when I say 'ending session'"
+
+Paste the final version into the Instructions area.
+
+### Step 6: Create a Requirements Document for Current Assignment
+
+1. Upload or paste your current assignment description
+2. Ask Claude:
+   > "Help me create a requirements document for this assignment. Include: what it's actually asking, which concepts are involved, relevant files from our Knowledge Base, and where the key challenges might be."
+3. Add the generated Artifact to Project
+
+### Step 7: Have Your First Learning Session
+
+1. Start a new conversation
+2. Begin with something like: "Let's study [topic]. Start by checking progress.md, then help me understand [specific concept]."
+3. Engage in back-and-forth learning for at least 15-20 minutes
+4. When finished, say "ending session" and let Claude generate progress.md
+5. Add the progress.md Artifact to Project
+
+### Step 8: Create Your First Personal Note
+
+1. When you truly understand a concept, ask Claude:
+   > "Help me write this understanding as a note in my own words, using the examples we just discussed."
+2. Add the note Artifact to Project
+
+**Estimated time: 60-90 minutes**
 
 ---
 
 ## Checklist
 
-### Part 1: Topic Selection
-- [ ] **Chose a relevant topic** — Selected something that genuinely matters to your current situation
+### Part 1: Material Preparation
+- [ ] **Chose a course** — Selected one current course to build the Project for
+- [ ] **Split textbook** — Divided into chapter-sized files (60-100 pages each)
+- [ ] **Compressed files** — Reduced file sizes if needed
+- [ ] **Organized file names** — All files have clear, descriptive names
 
-### Part 2: Brainstorming Session
-- [ ] **Started with the right framing** — Asked Claude to brainstorm, not solve
-- [ ] **Completed 5-7 rounds** — Gave Claude enough context to understand your situation
-- [ ] **Identified your background** — Clarified who you are and your current status
-- [ ] **Defined your goals** — Articulated what outcome you actually want
-- [ ] **Acknowledged constraints** — Shared time, resource, or other limitations
-- [ ] **Surfaced challenges** — Discussed your main worries and obstacles
+### Part 2: Project Setup
+- [ ] **Created Claude Project** — With a clear course name
+- [ ] **Uploaded all materials** — Textbook chapters, lecture notes, assignments, references
+- [ ] **Created materials index** — Index document Added to Project
+- [ ] **Wrote Instructions** — Including role, index usage, and progress.md rules
 
-### Part 3: Requirements Document
-- [ ] **Generated a structured document** — Includes background, goals, constraints, challenges, success criteria
-- [ ] **Reviewed for accuracy** — Document reflects your real situation
-- [ ] **Saved the document** — Ready to add to Claude Project
+### Part 3: Assignment Context
+- [ ] **Created requirements document** — For current assignment, Added to Project
 
-### Part 4: Expert Prompt
-- [ ] **Generated a custom prompt** — Tailored to your specific needs
-- [ ] **Prompt references the requirements doc** — Expert knows to read it first
-- [ ] **Prompt is flexible** — Not over-constrained, allows for adaptation
+### Part 4: Learning Session
+- [ ] **Completed first learning conversation** — At least 15-20 minutes of engaged study
+- [ ] **Verified AI reads materials** — AI can reference textbook content in explanations
+- [ ] **Generated progress.md** — First progress file Added to Project
+- [ ] **Created personal note** — At least one understanding note Added to Project
 
-### Part 5: Claude Project Setup
-- [ ] **Created new Claude Project** — With a descriptive name
-- [ ] **Added requirements doc to Project Knowledge** — Uploaded or pasted
-- [ ] **Added expert prompt to Project Instructions** — Pasted as system prompt
-- [ ] **Tested the project** — Started a conversation to verify it works
-
-### Part 6: Submission
-- [ ] **Created a share link** — Read-only permissions
-- [ ] **Submitted link to instructor** — Exercise complete
+### Part 5: Submission
+- [ ] **Share your Project** — Click Share → Create share link (Read-only)
+- [ ] **Submit link to instructor** — Exercise complete
