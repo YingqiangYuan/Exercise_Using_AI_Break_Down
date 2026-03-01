@@ -4,7 +4,7 @@
 
 This exercise guides you through building a complete Claude Project for one of your current college courses. You'll integrate your textbook and course materials, set up Instructions for personalized tutoring, and establish a progress tracking system that makes AI remember your learning journey.
 
-**Prerequisite:** Complete the tutorial *[Master Any College Course with Claude Project](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/04-Build-The-Expert-First/)* before starting.
+**Prerequisite:** Complete the tutorial *[Master Any College Course with Claude Project](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/05-Master-Any-College-Course/)* before starting.
 
 ---
 
