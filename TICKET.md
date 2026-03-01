@@ -1,53 +1,63 @@
-# Hands-On Exercise: Flip the Script in Practice
+# Hands-On Exercise: Practice the Goal-First Approach
 
 ## Objective
 
-This exercise lets you experience the power of "flipping the script" firsthand — letting the AI interview *you* before it answers — then reflect on what you learned to sharpen your ability to ask a complete, well-structured question on the first try.
+This exercise helps you experience the power of "goal-first" thinking — stating what you actually want instead of jumping to a method. You'll learn to let AI challenge your assumptions and uncover whether your planned approach is the right one.
 
-**Prerequisite:** Complete the tutorial *[Flip the Script: Let the AI Ask When You Don't Know How](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/02-Let-AI-Ask-You/)* before starting.
+**Prerequisite:** Complete the tutorial *[Goal First: Tell AI What You Want, Not How to Get There](https://github.com/easyscalecloud/learn_claude_ai_problem_solving_general-project/tree/03-Objective-First/)* before starting.
 
 ---
 
 ## How-to Guide
 
-### Exercise 1: Try the Flip-the-Script Method
+### The Exercise: "I Want to Learn SQL" — Unpacking the Real Goal
 
-1. Pick a topic you genuinely care about — either one of the 10 suggested topics from the tutorial or one of your own
-2. Start a new conversation and flip the script: state your question, then add **"Before you answer, ask me a few questions first."**
-3. Answer each of the AI's questions thoughtfully
-4. As the conversation progresses, steer the process by telling the AI:
-   - "I think you could dig deeper — keep asking."
-   - "That's enough questions — go ahead and answer based on what you know now."
-5. Keep the conversation going for at least 10 rounds
-6. Once the conversation wraps up, ask the AI to generate an Artifact summarizing all the information and key takeaways
-7. Copy the conversation link — you'll need it for submission
+1. **Before you open Claude**, spend 2 minutes asking yourself:
+   > "I want to learn SQL (or another skill) — but what outcome am I actually hoping for?"
 
-### Exercise 2: Reflection — Say It All in One Shot
+   It doesn't need to be perfectly clear. Just a rough direction is fine.
 
-1. **Open a brand-new conversation** (do not continue in the Exercise 1 thread)
-2. Look back at Exercise 1: what questions did the AI ask you, and what were your answers?
-3. Consolidate all of that information into a single, well-structured prompt and submit it in one go
-4. The goal: one prompt, one high-quality answer — no back-and-forth needed
-5. If you're not sure how to organize your thoughts, ask the AI to help you structure them first
-6. Copy the conversation link — you'll need it for submission
+2. **Open a new conversation** and frame your question goal-first:
+   - Describe your actual goal (what you want to achieve, not what you want to learn)
+   - Share your background and current situation
+   - Mention your assumed method (e.g., "I think I should learn SQL")
+   - End with: **"But I'm not sure this direction is right — can you help me think through it?"**
+
+3. **Let the conversation unfold honestly**:
+   - AI might ask probing questions
+   - AI might tell you something you don't want to hear
+   - Don't get defensive — this is the valuable part
+   - Continue for at least **5 rounds** of back-and-forth
+
+4. **After the conversation**:
+   - Reflect: Did AI confirm your original method, or suggest a different direction?
+   - Copy your conversation link for submission
+
+5. **Share your conversation link** with your instructor:
+   - Click **Share** (top right) → **Shared** → **Create share link** → Copy
+
+**Estimated time: 20–30 minutes**
 
 ---
 
 ## Checklist
 
-### Exercise 1: Flip the Script in Action
+### Part 1: Self-Reflection Before Starting
 
-- [ ] **Pick your topic** — Choose one of the 10 suggested topics or come up with an open-ended question you genuinely care about
-- [ ] **Kick off by flipping the script** — Add "Before you answer, ask me a few questions first" after your question
-- [ ] **Complete at least 10 rounds** — Give thoughtful answers to every question the AI asks
-- [ ] **Actively control the pace** — Use "keep asking" or "that's enough, go ahead and answer" at least once
-- [ ] **Generate a summary Artifact** — Have the AI summarize all the information and key takeaways
-- [ ] **Submit your conversation link** — Share the link with your instructor
+- [ ] **Identify your "method"** — What skill or action do you think you should pursue? (e.g., "learn SQL", "learn Python", "get a certification")
+- [ ] **Uncover your real goal** — What outcome do you actually want? (e.g., "break into data analytics", "get promoted", "feel more secure in my career")
 
-### Exercise 2: One Shot, One Answer
+### Part 2: Goal-First Conversation
 
-- [ ] **Start a fresh conversation** — Make sure it's a completely new session
-- [ ] **Draft a structured prompt** — Consolidate all the key information from Exercise 1 into a single message
-- [ ] **Submit it in one go** — One input, aiming for a high-quality answer on the first try
-- [ ] **Compare the results** — Ask yourself: how does this answer stack up against the final answer from Exercise 1?
-- [ ] **Submit your conversation link** — Share the link with your instructor
+- [ ] **Open with your goal, not your method** — Start by describing what you want to achieve, not what you plan to learn
+- [ ] **Include your background** — Share relevant context about your situation
+- [ ] **Mention your assumed approach** — State what you *think* you should do
+- [ ] **Ask AI to challenge it** — End with "But I'm not sure this direction is right — can you help me think through it?"
+- [ ] **Go at least 5 rounds** — Let AI ask probing questions and give honest answers
+- [ ] **Stay open, not defensive** — The uncomfortable questions are the valuable ones
+
+### Part 3: Reflection and Submission
+
+- [ ] **Review the outcome** — Did AI validate your original method, refine it, or suggest a completely different path?
+- [ ] **Identify the key insight** — What's one thing you learned about your real goal that you hadn't considered before?
+- [ ] **Submit your conversation link** — Share with your instructor
