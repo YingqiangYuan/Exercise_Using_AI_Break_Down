@@ -25,3 +25,11 @@ Building on the Three Elements Framework from Lesson 01, this lesson addresses a
 **Goal First: Tell AI What You Want, Not How to Get There**
 
 This lesson tackles the "method-first" trap — asking AI how to execute a method you've already assumed is correct. You'll learn to distinguish goals from methods, apply a three-step self-check before asking, and let AI challenge your assumptions through a full example conversation. After this lesson, you can transform AI from an execution tool into a thinking partner that helps validate your direction before you invest time going the wrong way.
+
+---
+
+## 04-Build-The-Expert-First
+
+**Build The Expert First: The Right Way to Tackle Complex Projects with AI**
+
+Building on goal-first thinking, this lesson introduces "project thinking" for complex challenges. You'll master a three-step method: brainstorm with AI to clarify your needs, create a requirements document capturing your background and goals, then generate a custom expert prompt. The hands-on exercise has you build a Claude Project with both files for a real challenge you're facing. After this lesson, you can create personalized AI advisors that remember your context and provide tailored guidance.
