@@ -83,10 +83,10 @@ Paste the final version into the Instructions area.
 ## Checklist
 
 ### Part 1: Material Preparation
-- [ ] **Chose a course** — Selected one current course to build the Project for
-- [ ] **Split textbook** — Divided into chapter-sized files (60-100 pages each)
-- [ ] **Compressed files** — Reduced file sizes if needed
-- [ ] **Organized file names** — All files have clear, descriptive names
+- [X] **Chose a course** — Selected one current course to build the Project for
+- [X] **Split textbook** — Divided into chapter-sized files (60-100 pages each)
+- [X] **Compressed files** — Reduced file sizes if needed
+- [X] **Organized file names** — All files have clear, descriptive names
 
 ### Part 2: Project Setup
 - [ ] **Created Claude Project** — With a clear course name
